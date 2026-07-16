@@ -12,7 +12,7 @@ Security orchestration, automated threat intelligence enrichment, and dynamic al
 ### Phase 1: Webhook Ingress Configuration & Payload Parsing
 To simulate a trigger from an external security tool (like a SIEM or firewall), an inbound HTTP Webhook listener was deployed in Tines. This generated a unique, cloud-hosted webhook URL configured to parse incoming JSON payloads containing the targeted IP address.
 
-![01 Webhook Setup](1_Webhook_Setup_.png)
+![01 Webhook Setup](1_Webhook_ Setup_.png)
 ![02 Test Payload Received](2_Test_Payload_Received.png)
 
 ### Phase 2: VirusTotal API Connection & Secure Handshake
