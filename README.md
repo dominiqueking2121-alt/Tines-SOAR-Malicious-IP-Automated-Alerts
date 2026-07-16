@@ -19,7 +19,7 @@ To simulate a trigger from an external security tool (like a SIEM or firewall), 
 An HTTP Request block was integrated to dynamically fetch third-party threat intelligence. The VirusTotal API key was securely isolated inside Tines credentials and a static REST GET connection was established using 8.8.8.8 to test authentication and confirm a successful handshake.
 
 ![03 VirusTotal API Setup](3_VirusTotal_API_Setup.png)
-![04 VirusTotal Header Key](4_VirusTotal_Header_Key.png.png)
+![04 VirusTotal Header Key](4_VirusTotal_Header_Key.png..png)
 ![05 VirusTotal Test Success](5_VirusTotal_Test_Success.png)
 
 ### Phase 3: Parsing the API JSON Response
